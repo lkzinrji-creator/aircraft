@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IGI",
+    "IPI"
+  ],
+  "key": {
+    "I": {"item": "minecraft:iron_ingot"},
+    "G": {"item": "minecraft:glass"},
+    "P": {"item": "minecraft:oak_planks"}
+  },
+  "result": {
+    "id": "aircraftmod:airplane",
+    "count": 1
+  }
+}

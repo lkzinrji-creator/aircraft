@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "aircraftmod",
+  "version": "${version}",
+  "name": "Aircraft Mod",
+  "description": "A functional airplane with a spinning propeller and gasoline fuel for Minecraft 26.3.",
+  "authors": ["OpenAI"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.aircraftmod.AircraftMod"],
+    "client": ["com.aircraftmod.AircraftModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
